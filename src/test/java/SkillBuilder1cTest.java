@@ -68,8 +68,8 @@ public class SkillBuilder1cTest extends OutputTest
         expected += "Provide box width \\(meters\\):\n";
         expected += "Provide box height \\(meters\\):\n";
         expected += "Provide length of sides of chocolate cube \\(centimeters\\):\n\n";
-        expected += "The box will fit a maximum of 1125000 chocolate cubes.\n";
-        expected += "And will have 0.0 cm\\^3 of unused space!";
+        expected += "The box will fit a maximum of 3537800 chocolate cubes.\n";
+        expected += "And will have 479400.0 cm\\^3 of unused space!";
         String actual = getTestOutput();
         String message = "Test Failed!\nExpecting:\n"+expected+"\nActual:\n"+actual;
         assertTrue(Pattern.compile(expected.replaceAll("\\s",""))
